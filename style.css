@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('imágenes/viajes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0fdf4;
+  }
+  
+  .contenedor {
+    background-color: rgba(0, 51, 64, 0.8); /* Verde-azulado oscuro */
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #a7f3d0; /* Verde menta suave */
+  }
+  
+  input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+  }
+  
+  input, select {
+    background-color: #e0f2f1;
+    color: #004d40;
+  }
+  
+  button {
+    background-color: #2dd4bf; /* Verde agua */
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #14b8a6; /* Un tono más oscuro al pasar el cursor */
+  }
+  
+  #itinerario {
+    margin-top: 20px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
